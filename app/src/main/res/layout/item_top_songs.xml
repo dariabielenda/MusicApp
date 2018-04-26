@@ -2,7 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
     android:orientation="horizontal"
     android:padding="8dp">
 
@@ -19,36 +19,36 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:orientation="vertical">
 
-    <TextView
-        android:id= "@+id/tvTrack"
-        android:layout_width= "match_parent"
-        android:layout_height= "wrap_content"
-        android:textSize= "30sp"
-        android:textColor= "@android:color/black"
-        android:textStyle="bold"
-        tools:text= "Tytul: " />
+        <TextView
+            android:id="@+id/tvTrack"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            tools:text="Tytul: " />
 
-    <TextView
-        android:id= "@+id/tvArtist"
-        android:layout_width= "match_parent"
-        android:layout_height= "wrap_content"
-        android:textSize= "23sp"
-        android:textColor= "@android:color/black"
-        android:textStyle="bold"
-        tools:text= "Artysta: " />
+        <TextView
+            android:id="@+id/tvArtist"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:textSize="23sp"
+            android:textStyle="bold"
+            tools:text="Artysta: " />
 
-    <TextView
-        android:id= "@+id/tvAlbum"
-        android:layout_width= "match_parent"
-        android:layout_height= "wrap_content"
-        android:textSize= "18sp"
-        android:textColor= "@android:color/black"
-        android:textStyle="bold"
-        tools:text= "Album: " />
+        <TextView
+            android:id="@+id/tvAlbum"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            tools:text="Album: " />
 
 
-</LinearLayout>
+    </LinearLayout>
 </LinearLayout>
